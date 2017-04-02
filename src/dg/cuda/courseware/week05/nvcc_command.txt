@@ -1,0 +1,2 @@
+nvcc -o rgb2gray rgb2gray.cu -lopencv_highgui -lopencv_core -lopencv_imgcodecs -lopencv_imgproc
+nvcc -o blur blur.cu -lopencv_highgui -lopencv_core -lopencv_imgcodecs -lopencv_imgproc
